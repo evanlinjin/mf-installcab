@@ -10,7 +10,7 @@ Installcab based Media Foundation workaround for Wine
 
 Just set WINEPREFIX and run install-mf-64.sh like this
 
-`WINEPREFIX="/home/gaben/.local/share/Steam/steamapps/compatdata/883710/pfx" ./install-mf-64.sh`
+`WINEPREFIX="$HOME/.local/share/Steam/steamapps/compatdata/883710/pfx" ./install-mf-64.sh`
 
 Then copy the included mfplat.dll to the same directory as the `.exe` (e.g. re2.exe)
 
